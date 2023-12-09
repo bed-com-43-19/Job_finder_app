@@ -50,8 +50,8 @@ class _SearchOptionState extends State<SearchOption> {
                         fontSize: 12,
                         color: optionMap[keys[index]] != null && 
                             optionMap[keys[index]] == true 
-                       ?  Colors.white 
-                       :  Colors.black,
+                        ?  Colors.white 
+                        :  Colors.black,
                       ),
                     ),
                     if(optionMap[keys[index]] != null && 
@@ -71,7 +71,7 @@ class _SearchOptionState extends State<SearchOption> {
                   ), 
                 ),
               ),
-          separatorBuilder: (_, index) => SizedBox(width: 19),
+          separatorBuilder: (_, index) => SizedBox(width: 10),
           itemCount: optionMap.length),
     );
   }

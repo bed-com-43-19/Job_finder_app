@@ -8,7 +8,9 @@ class TagList extends StatefulWidget {
 }
 
 class _TagListState extends State<TagList> {
-  final tagList = <String>['Popular Search', 'See all'];
+  final tagList = <String>[
+    
+    'Popular Search', 'See all'];
   var selected = 0;
   @override
   Widget build(BuildContext context) {
@@ -35,9 +37,7 @@ class _TagListState extends State<TagList> {
           // ignore: prefer_const_constructors
           // The distance between two text, 
           //especially how far is see all from popular search 
-          separatorBuilder: (_, index) => const SizedBox(
-                width: 150,
-              ),
+          separatorBuilder: (_, index) => const SizedBox(width: 150),
           itemCount: tagList.length),
     );
     

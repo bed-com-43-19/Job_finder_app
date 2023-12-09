@@ -65,24 +65,6 @@ class Job {
           'GGKNERWNGKERGERWG',
         ],
         ),
-        Job(
-        'Google LLC,',
-        'assets/images/google_logo.png',
-        false,
-        'Product manager',
-        '131 zomba',
-        'JDHEJ',
-        [
-          'Project Manager is someone ',
-          'GGKNERWNGKERGERWG',
-          'Project Manager is someone ',
-          'GGKNERWNGKERGERWG',
-          'Project Manager is someone ',
-          'GGKNERWNGKERGERWG',
-          'Project Manager is someone ',
-          'GGKNERWNGKERGERWG',
-        ],
-        ),
     ];
   } 
 }

@@ -12,7 +12,7 @@ class SearchList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(
-        top: 25,
+        top: 30,
       ),
       child: ListView.separated(
         padding: EdgeInsets.only(
@@ -22,9 +22,9 @@ class SearchList extends StatelessWidget {
         ),
         itemBuilder: (context, index) => JobItem(
           jobList[index],
-          showTime: false,
+          showTime: true,
         ), 
-        separatorBuilder: (_, index) => SizedBox(height: 20), 
+        separatorBuilder: (_, index) => SizedBox(height: 25), 
         itemCount: jobList.length),
     );
   }

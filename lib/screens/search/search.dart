@@ -24,7 +24,7 @@ class SearchPage extends StatelessWidget {
               SearchAppBar(),
               SearchInput(),
               SearchOption(),
-              SearchList(),
+              Expanded(child: SearchList()),
             ],
           ),
         ],

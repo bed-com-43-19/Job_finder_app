@@ -27,9 +27,7 @@ class JobList extends StatelessWidget {
                     builder: (context) => JobDetail(jobList[index]));
               },
               child: JobItem(jobList[index])),
-          separatorBuilder: (_, index) => SizedBox(
-                width: 20,
-              ),
+          separatorBuilder: (_, index) => SizedBox(width: 20),
           itemCount: jobList.length),
     );
   }

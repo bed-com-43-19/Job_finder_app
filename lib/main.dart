@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_search_app/screens/home/Home.dart';
+import 'package:job_search_app/screens/login/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.white
       ),
-      home: const HomePage(),
+      home: const Login(),
     );
   }
 }
