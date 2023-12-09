@@ -40,15 +40,15 @@ class HomePage extends StatelessWidget {
             ),
           ],  
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Theme.of(context).colorScheme.secondary,
-        elevation: 0,
-        onPressed: () {},
-        child: Icon(
-          Icons.add,
-          color: Colors.white),
-        ),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
+      // floatingActionButton: FloatingActionButton(
+      //   backgroundColor: Theme.of(context).colorScheme.secondary,
+      //   elevation: 0,
+      //   onPressed: () {},
+      //   child: Icon(
+      //     Icons.add,
+      //     color: Colors.white),
+      //   ),
 
       bottomNavigationBar: BottomNavigationBar(
         showSelectedLabels: false,
@@ -60,26 +60,29 @@ class HomePage extends StatelessWidget {
             label: 'Home',
             icon: Icon(
               Icons.home,
-              size: 40,
+              size: 30,
               color: Colors.blue,),),
           BottomNavigationBarItem(
             label: 'Bookmark',
             icon: Icon(
               Icons.bookmark,
-              size: 40,),),
+              size: 30,),),
           BottomNavigationBarItem(
-            label: '',
-            icon: Text(''),),
+            label: 'Addition',
+            icon: Icon(
+              Icons.add_circle_outline_rounded,
+            size: 50,
+            color: Colors.blue,)),
           BottomNavigationBarItem(
             label: 'Settings',
             icon: Icon(
               Icons.settings,
-              size: 40,),),
+              size: 30,),),
           BottomNavigationBarItem(
             label: 'Person',
             icon: Icon(
               Icons.person,
-            size: 40,),),  
+            size: 30,),),  
             
         ],
       ),

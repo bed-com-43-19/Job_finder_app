@@ -18,7 +18,15 @@ class Job {
         '131 zomba',
         '2 days ago',
          [
-        
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          
          ]
         ),
         Job(
@@ -29,7 +37,14 @@ class Job {
         '131 zomba',
         'KEDWQ',
         [
-
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
         ],
         ),
         Job(
@@ -40,7 +55,14 @@ class Job {
         '131 zomba',
         'FMWNF',
         [
-
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
         ],
         ),
         Job(
@@ -51,7 +73,14 @@ class Job {
         '131 zomba',
         'JDHEJ',
         [
-
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
+          'Project Manager is someone ',
+          'GGKNERWNGKERGERWG',
         ],
         ),
     ];

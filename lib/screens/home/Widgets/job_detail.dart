@@ -62,8 +62,8 @@ class JobDetail extends StatelessWidget {
                             ? Icons.bookmark
                             : Icons.bookmark_outline_rounded,
                         color: job.isMark
-                            ? Theme.of(context).primaryColor
-                            : Colors.black,
+                            ? Colors.black
+                            : Colors.blue,
                       ),
                       Icon(Icons.more_horiz_outlined),
                     ],
@@ -127,11 +127,12 @@ class JobDetail extends StatelessWidget {
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     elevation: 0,
-                    primary: Theme.of(context).primaryColor,
+                    primary: Colors.blue,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
-                    )),
-                  onPressed: () {  }, 
+                    )
+                  ),
+                  onPressed: () {}, 
                   child: Text('Apply Now'),),
               ),
                 ],
